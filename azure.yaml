@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: tfaimultiagentprsntnbuildr
+metadata:
+    template: azd-init@1.17.0
+services:
+    tfaimultiagentprsntnbuildr:
+        project: .
+        host: containerapp
+        language: python
+resources:
+    tfaimultiagentprsntnbuildr:
+        type: host.containerapp
+        port: 80

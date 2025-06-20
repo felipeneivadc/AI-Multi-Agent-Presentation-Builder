@@ -23,7 +23,8 @@ from semantic_kernel.exceptions.function_exceptions import FunctionExecutionExce
 from semantic_kernel.functions import KernelArguments
 
 from src.plugins.presentation import PresentationPlugin
-
+import dotenv
+dotenv.load_dotenv()
 
 class Orchestrator:
 
@@ -125,6 +126,7 @@ class MultiAgent:
 
             print(f"Created agent: {expert.name}, agent ID: {expert.id} ")
         return expert_agents
+    
     
     def create_selection_function(self, expert_agents):
         selection_function = KernelFunctionFromPrompt(function_name="selection",

@@ -16,6 +16,7 @@ async def run(user_input):
     expert_agents_names = [agent.name for agent in expert_agents]
 
     # Create selection function
+    #selection_function = mas.create_selection_function(expert_agents)
     selection_function = mas.create_selection_function(expert_agents_names)
 
     # Create the termination function
