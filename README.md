@@ -26,7 +26,7 @@ This project framework provides the following features:
 * **Presentation Export**: Generate and download presentations in PPTX format.
 
 ## Demo
-![MAS-Presentation-Builder](images/Multi_Agent_Draft_Presentation_Builder.mp4)
+![MAS-Presentation-Builder](images/Multi_Agent-Draft-Presentation-Builder.gif)
 
 ## Getting Started
 
